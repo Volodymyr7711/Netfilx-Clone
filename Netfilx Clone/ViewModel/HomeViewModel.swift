@@ -41,6 +41,7 @@ extension HomeViewModel: TableViewDelegateAndDataSource {
                                          width: 100,
                                          height: header.bounds.height)
         header.textLabel?.textColor = .white
+        header.textLabel?.text = header.textLabel?.text?.capitalized
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

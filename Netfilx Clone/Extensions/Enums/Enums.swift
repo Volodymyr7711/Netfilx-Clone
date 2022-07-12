@@ -55,3 +55,17 @@ enum Icon: CaseIterable {
     }
 }
 
+
+enum APIKey: String, CaseIterable {
+    
+    case key
+    case basicURL
+    
+    var apiCallback: String {
+        switch self {
+        case .key: return "576ee9d968260197cd516197453b567e"
+        case .basicURL: return "https://api.themoviedb.org"
+        }
+    }
+}
+

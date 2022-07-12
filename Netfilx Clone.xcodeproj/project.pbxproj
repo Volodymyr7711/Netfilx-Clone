@@ -24,6 +24,7 @@
 		80D9A1942875C7DA003B701F /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9A1932875C7D9003B701F /* HeroHeaderUIView.swift */; };
 		80D9A19728773499003B701F /* CollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9A19628773499003B701F /* CollectionCellViewModel.swift */; };
 		80D9A19A28773BB5003B701F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9A19928773BB5003B701F /* Extension.swift */; };
+		80D9A19D28783306003B701F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D9A19C28783306003B701F /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		80D9A1932875C7D9003B701F /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		80D9A19628773499003B701F /* CollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellViewModel.swift; sourceTree = "<group>"; };
 		80D9A19928773BB5003B701F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		80D9A19C28783306003B701F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				80D9A1672875A971003B701F /* SceneDelegate.swift */,
 				80D9A1652875A971003B701F /* AppDelegate.swift */,
+				80D9A19B287832AD003B701F /* Manager */,
 				80D9A18F2875B775003B701F /* Models */,
 				80D9A1902875B785003B701F /* Views */,
 				80D9A1862875B246003B701F /* ViewModel */,
@@ -180,6 +183,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		80D9A19B287832AD003B701F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				80D9A19C28783306003B701F /* APICaller.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,6 +268,7 @@
 				80D9A18A2875B4F8003B701F /* UpcomingViewModel.swift in Sources */,
 				80D9A16A2875A971003B701F /* MainTabBarViewController.swift in Sources */,
 				80D9A1812875ABA2003B701F /* DownloadsViewController.swift in Sources */,
+				80D9A19D28783306003B701F /* APICaller.swift in Sources */,
 				80D9A19728773499003B701F /* CollectionCellViewModel.swift in Sources */,
 				80D9A1662875A971003B701F /* AppDelegate.swift in Sources */,
 				80D9A1942875C7DA003B701F /* HeroHeaderUIView.swift in Sources */,

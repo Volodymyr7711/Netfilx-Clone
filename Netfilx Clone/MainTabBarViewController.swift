@@ -26,10 +26,18 @@ class MainTabBarViewController: UITabBarController {
     
   private func setupViewControllers() {
           viewControllers = [
-              createNavController(for: HomeViewController(), title: NSLocalizedString("Home", comment: ""), image: UIImage(systemName: "house")!),
-              createNavController(for: UpcomingViewController(), title: NSLocalizedString("Cooming Soon", comment: ""), image: UIImage(systemName: "play.circle")!),
-              createNavController(for: SearchViewController(), title: NSLocalizedString("Top Search", comment: ""), image: UIImage(systemName: "magnifyingglass")!),
-              createNavController(for: DownloadsViewController(), title: NSLocalizedString("Downloads", comment: ""), image: UIImage(systemName: "arrow.down.to.line")!)
+              createNavController(for: HomeViewController(),
+                                  title: NSLocalizedString("Home", comment: ""),
+                                  image: UIImage(systemName: "house")!),
+              createNavController(for: UpcomingViewController(),
+                                  title: NSLocalizedString("Cooming Soon", comment: ""),
+                                  image: UIImage(systemName: "play.circle")!),
+              createNavController(for: SearchViewController(),
+                                  title: NSLocalizedString("Top Search", comment: ""),
+                                  image: UIImage(systemName: "magnifyingglass")!),
+              createNavController(for: DownloadsViewController(),
+                                  title: NSLocalizedString("Downloads", comment: ""),
+                                  image: UIImage(systemName: "arrow.down.to.line")!)
           ]
       }
 }
